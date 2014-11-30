@@ -3,9 +3,6 @@ use warnings;
 use Test::More tests => 5;
 use Sys::Statistics::Linux::SysInfo;
 
-# :TODO:29-11-2014 22:47:06:: this should be removed or the conditional tests are useless
-use List::BinarySearch qw(binsearch);
-
 my @pf = qw(
   /proc/sys/kernel/hostname
   /proc/sys/kernel/domainname
